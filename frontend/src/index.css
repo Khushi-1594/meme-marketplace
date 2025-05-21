@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(to right, #1a0023, #000);
+  color: #fff;
+  font-family: 'Press Start 2P', monospace;
+}
