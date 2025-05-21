@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import MemeForm from './components/MemesFormm';
+import MemeForm from './components/MemesForm';
 import MemeGallery from './components/MemesGallery';
 import socket from './socket';
 import Leaderboard from './components/Leaderboard';
