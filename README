@@ -1,0 +1,14 @@
+# Meme Marketplace Project
+
+This is a full-stack Meme Marketplace application where users can create memes, place bids, and vote on memes in real-time. The project features AI-generated captions and vibe analysis for memes using Gemini API integration.
+
+---
+
+## Features
+
+- Meme creation with title, image URL, and tags
+- Real-time bidding system with Socket.IO
+- Upvote and downvote memes with real-time updates
+- AI-generated captions and vibe analysis for memes
+- Responsive and cyberpunk-themed UI
+- Backend API with Express and WebSocket support
