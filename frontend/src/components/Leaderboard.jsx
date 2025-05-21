@@ -7,7 +7,7 @@ const Leaderboard = () => {
   useEffect(() => {
     const fetchLeaderboard = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/memes/leaderboard?top=10');
+        const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/memes/leaderboard?top=10`);
         setTopMemes(res.data);
       } catch (err) {
         console.error('Failed to fetch leaderboard:', err);
